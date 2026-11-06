@@ -35,7 +35,7 @@ jobs:
           fi
 
       - name: Sync WeRead to Notion
-        uses: malinkang/weread2notion@1b0013747ebf902ade37ca06f413af010cd35476 # v1 (1.0.8)
+        uses: malinkang/weread2notion@36daed3aa7fda67088f97fc23c03f63e418220c4
         with:
           weread-api-key: ${{ secrets.WEREAD_API_KEY }}
           notion-token: ${{ secrets.NOTION_TOKEN }}
